@@ -5,10 +5,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const webpackConfig = {
     entry: {
-        'plugin-name': './src/index.js'
+        'utils-configuration-sync': './src/index.js'
     },
     output: {
-        library: 'plugin',
+        library: 'utils',
         libraryTarget: 'umd',
         path: path.resolve(__dirname, 'dist'),
         filename: `[name].js`

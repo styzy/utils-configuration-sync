@@ -1,5 +1,5 @@
-import core from './core'
+import sync from './sync'
 
-export { core as name }
+export { sync as syncConfig }
 
-export default core
+export default sync

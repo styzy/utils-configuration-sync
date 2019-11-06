@@ -1,7 +1,7 @@
 {
-    "name": "es7-plugin",
-    "version": "0.0.0",
-    "description": "es7-plugin",
+    "name": "@styzy/utils-configuration-sync",
+    "version": "0.0.1",
+    "description": "A tool to sync configuration",
     "scripts": {
         "dev": "webpack-dev-server --mode=development --open --hot",
         "build": "webpack --mode=production"
@@ -11,7 +11,7 @@
         "email": "styzyreal@126.com",
         "url": "https://our.styzy.cn"
     },
-    "main": "dist/plugin-name.js",
+    "main": "dist/utils-configuration-sync.js",
     "devDependencies": {
         "@babel/cli": "^7.6.4",
         "@babel/core": "^7.6.4",
@@ -34,6 +34,7 @@
         "webpack-dev-server": "^3.7.2"
     },
     "dependencies": {
-        "@babel/runtime-corejs3": "^7.6.3"
+        "@babel/runtime-corejs3": "^7.6.3",
+        "@styzy/utils-validation-type": "0.0.1"
     }
 }
