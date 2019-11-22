@@ -1,6 +1,6 @@
 {
     "name": "@styzy/utils-configuration-sync",
-    "version": "0.0.1",
+    "version": "1.0.1",
     "description": "A tool to sync configuration",
     "scripts": {
         "dev": "webpack-dev-server --mode=development --open --hot",
@@ -19,6 +19,7 @@
         "@babel/plugin-transform-modules-commonjs": "^7.6.0",
         "@babel/plugin-transform-runtime": "^7.6.2",
         "@babel/preset-env": "^7.6.3",
+        "@styzy/utils-validation-type": "^1.0.1",
         "autoprefixer": "^9.6.1",
         "babel-loader": "^8.0.6",
         "css-loader": "^3.0.0",
@@ -34,7 +35,6 @@
         "webpack-dev-server": "^3.7.2"
     },
     "dependencies": {
-        "@babel/runtime-corejs3": "^7.6.3",
-        "@styzy/utils-validation-type": "0.0.1"
+        "@babel/runtime-corejs3": "^7.6.3"
     }
 }

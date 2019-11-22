@@ -1,5 +1,8 @@
+import { isHTMLElement } from '@styzy/utils-validation-type'
 import sync from './sync'
 
-export { sync as syncConfig }
+export { isHTMLElement }
+
+export { sync }
 
 export default sync
